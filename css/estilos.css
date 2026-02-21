@@ -52,14 +52,14 @@ h1, h2 {
 }
 
 .imagen-recurso {
-    max-width: 25%; /* Juega con este porcentaje si la quieres más grande o chica */
+    max-width: 25%;
     height: auto;
-    display: block; /* Hace que ocupe su propio espacio pero alineada a la izquierda por defecto */
-    margin-top: 20px; /* Solo le damos espacio arriba para que no se pegue al texto anterior */
-    margin-bottom: 20px; /* Un poco de espacio abajo también */
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    /* Al quitar 'margin: auto', se alinea a la izquierda solita */
+    
 }
 
 .btn-descarga {
@@ -76,4 +76,12 @@ h1, h2 {
 
 .btn-descarga:hover {
     background-color: #0ea5e9; /* Un azul un poco más oscuro al pasar el mouse */
+}
+
+.pie-foto {
+    font-size: 0.8em;
+    color: #94a3b8;
+    font-style: italic;
+    margin-top: -15px;
+    margin-bottom: 25px;
 }
