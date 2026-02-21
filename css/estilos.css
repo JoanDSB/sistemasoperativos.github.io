@@ -50,3 +50,27 @@ nav a:hover {
 h1, h2 {
     font-weight: 600;
 }
+
+.imagen-recurso {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* Sombrita elegante */
+    margin-top: 15px;
+}
+
+.btn-descarga {
+    display: inline-block;
+    background-color: #38bdf8; /* Azul claro que resalta */
+    color: #0f172a; /* Letra oscura para contrastar */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-descarga:hover {
+    background-color: #0ea5e9; /* Un azul un poco más oscuro al pasar el mouse */
+}
