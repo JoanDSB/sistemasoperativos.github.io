@@ -52,7 +52,7 @@ h1, h2 {
 }
 
 .imagen-recurso {
-    max-width: 50%; /* Juega con este porcentaje si la quieres más grande o chica */
+    max-width: 25%; /* Juega con este porcentaje si la quieres más grande o chica */
     height: auto;
     display: block; /* Hace que ocupe su propio espacio pero alineada a la izquierda por defecto */
     margin-top: 20px; /* Solo le damos espacio arriba para que no se pegue al texto anterior */
